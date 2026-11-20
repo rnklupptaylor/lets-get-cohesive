@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve the original Netlify bytes on every checkout while retaining text diffs.
+/src/index.html -text diff
+*.png binary
+*.jpg binary
